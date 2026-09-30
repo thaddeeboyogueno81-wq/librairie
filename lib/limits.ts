@@ -1,0 +1,1 @@
+export const FREE={products:20,orders:30}; export function isPro(plan:string,expires:string|null){return plan==='pro'&&(!expires||new Date(expires)>new Date())}
